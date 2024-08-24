@@ -38,7 +38,7 @@ public class LocalVideo_JFrame extends javax.swing.JFrame {
             
             String DB_URL = "jdbc:mysql://127.0.0.1:3306/obdep";
             String DB_USER = "root";
-            String DB_PASSWORD = "H2R@Rahul2002";
+            String DB_PASSWORD = "Password";
             
             String tno = jTextField2.getText();
             String tbl = tno.concat(ins);
@@ -77,7 +77,7 @@ public class LocalVideo_JFrame extends javax.swing.JFrame {
 
                 String DB_URL = "jdbc:mysql://127.0.0.1:3306/obdep";
                 String DB_USER = "root";
-                String DB_PASSWORD = "H2R@Rahul2002";
+                String DB_PASSWORD = "Password";
 
                 try (Connection con = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
                     System.out.println("Connection established... " + con);
